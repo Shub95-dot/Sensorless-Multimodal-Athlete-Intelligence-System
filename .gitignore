@@ -1,0 +1,45 @@
+# ============================================================
+# Sensorless Multimodal Athlete Intelligence System - .gitignore
+# ============================================================
+
+# --- Raw Datasets (too large for GitHub) ---
+1_raw_datasets/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS ---
+*.tmp
+*.bak
+*.log
+
+# --- Large model files (download separately) ---
+# Uncomment the line below if you also want to exclude model weights:
+# 12_models/*.task
